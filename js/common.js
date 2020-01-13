@@ -109,5 +109,6 @@ $(document).ready(function () {
       document.querySelector('.header-top__center').classList.toggle('active');
       document.querySelector('.header-top__buttons').classList.toggle('active');
       document.querySelector('.header-top').classList.toggle('active');
+      document.querySelector('body').classList.toggle('lock');
    };
 }); 
